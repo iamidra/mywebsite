@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<head>
+  <title>survey</title>
+  <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Idra's Portfolio - Front End Developer & Security Professional from Dodoma" />
+  <meta name="keywords" content="Idra, Portfolio, Web Developer, InfoSec, Projects, Contact" />
+  <meta name="author" content="Idra" />
+  <script src="script.js" defer></script>
+
+</head>
+<body>
+  
+    <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="project.html">Project</a></li>
+          <li><a href="contact.html">Contact Me</a></li>
+          <li><a href="aboutme.html">About Me</a></li>
+          <li><a href="survey.html">Survey</a></li>
+          <li><button id="toggle-theme">🌙</button></li>
+        </ul>
+      </nav>
+
+    <h1>Share with me</h1>
+  <main>
+    <div class="form-box">
+    <form id="survey-form">
+      <label for="fullname">Full Name:</label>
+      <input type="text" id="fullname" name="fullname" required />
+
+      <label>How did you find me?</label>
+      <label><input type="radio" name="source" value="friend" required /> Friend</label>
+      <label><input type="radio" name="source" value="internet" /> Internet</label>
+      <label><input type="radio" name="source" value="other" /> Other</label>
+
+      <label for="skills">Which skills do you think I should improve?</label>
+      <label><input type="checkbox" name="skills" value="frontend" /> Frontend Design</label>
+      <label><input type="checkbox" name="skills" value="security" /> Security</label>
+      <label><input type="checkbox" name="skills" value="backend" /> Backend Logic</label>
+
+      <label for="comments">Comments:</label>
+      <textarea id="comments" name="comments" rows="5"></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+    </div> 
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Idra Mkumbanya. All rights reserved.</p>
+    <p>
+      <a href="https://github.com/iamidra" target="_blank">GitHub</a> |
+    </p>
+  
+  </footer>
+</body>
+</html>
