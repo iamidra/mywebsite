@@ -370,7 +370,7 @@ body.dark-mode .project-card,
 body.dark-mode form,
 body.dark-mode .bio,
 body.dark-mode .skills {
-  background-color: #1e1e1e !important;
-  color: #f0f0f0 !important;
+  background-color: #1e1e1e;
+  color: #f0f0f0;
 }
 
